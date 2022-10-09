@@ -1,3 +1,7 @@
 site_name: OpenMarket Documentation
 theme:
     name: readthedocs
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
