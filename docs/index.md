@@ -7,17 +7,38 @@ OpenMarket is an NFT marketplace. OpenMarket is built on three main modules:
 
 OpenMarket comes with two different flavors. The public instance and a white label instance. The white able instance is designed to run on the customers infrastructure or cloud service where the customer is in full control of all the components. This document focuses on the white label flavor.
 
+## OpenMarket products
+
+OpenMarket.tech
+
+- Public and global accessible NFT marketplace
+- Integrates several test and main nets
+- Offers public APIs
+- Multiple Blockchains connected
+
+OpenMarket White-label
+
+- Designed for customer projects
+- Independent deployment on the customers cloud service or data center
+- Fully customizable
+- Customer is under control of everything (smart-contract, backend and frontend)
+- We are selling source-code or binary lifetime software license.
+- We provide customization.
+
+
 ## Core Features
 
 ### Smart Contract
+
 - Works on all EVM based blockchains
-- Supports sell- and bid-orders
-- Swaps ERC-721 or ERC-1155 NFTs with native coin or ERC-20 Token
+- NFT Standards: ERC-721 and ERC-1155
+- Payment: ERC-20 or Ether
+- Sell- and Bid-NFT orders
+- Supports ERC-2981 (Royalty standard)
 - Order validation
-- Buying with native Coin (ETH, Matic, …)
-- Buying with any ERC-20 Token
-- Canceling orders
+- Cancelling orders
 - 100% decentralized / Code is law
+
 
 ### Backend
 - One instance works on all EVM based blockchains

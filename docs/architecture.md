@@ -1,5 +1,11 @@
 # Architecture
 
+## High-Level
+
+![DEX3 High Level](img/om-highlevel.jpg)
+
+One instance of OpenMarket can be connected to multiple blockchains.
+
 ## Business Context
 
 ![DEX3 Business-context](img/om-business-context.jpg)
