@@ -28,6 +28,7 @@ The operator can monitor and configure OpenMarket. E.g., define which NFT token 
 ![DEX3 Deployment-view](img/om-deployment.jpg)
 
 Recommended Deployment:
+
 - CDN / Cloudflare: To filter out DDoS attacks.
 - Heroku: Deployment of the OpenMarket Backend and Frontend.
 - MongoDB: Version 5.0.8 or higher is required. Use https://www.mongodb.com/ as DB provider

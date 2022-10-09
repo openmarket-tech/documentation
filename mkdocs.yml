@@ -4,4 +4,5 @@ theme:
 
 nav:
   - Home: index.md
+  - "How it works": how-the-dex-works.md
   - Architecture: architecture.md
