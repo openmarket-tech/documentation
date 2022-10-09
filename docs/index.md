@@ -5,7 +5,10 @@ OpenMarket is an NFT marketplace. OpenMarket is built on three main modules:
 -	Backend: Indexing NFTs and the corresponding metadata. Keep track of the order book. Provides APIs for the frontend.
 -	Smart-Contract / DEX: Buy trades relay only on blockchain technology. By buying NFTs the user directly interacts over a P2P network with the smart contract without a centralized party.
 
-OpenMarket comes with two different flavors. The public instance and a white label instance. The white able instance is designed to run on the customers infrastructure or cloud service where the customer is in full control of all the components. This document focuses on the white label flavor.
+OpenMarket comes with two different flavors. The public instance and a white label solution. OpenMarket white-label solution is an out-of-the-box NFT-Marketplace for trading NFTs. 
+It’s highly customizable and can be adjusted for customer requirements. OpenMarket works technically on all EVM based blockchains. It’s designed to run on the customers cloud infrastructure and be operated by the customer. 
+
+[Demonstration instance](https://openmarket.tech/#/)
 
 ## OpenMarket products
 
@@ -28,17 +31,28 @@ OpenMarket White-label
 
 ## Core Features
 
-### Smart Contract
+OpenMarket is built on three main modules:
 
+- Frontend: User can browse, filter, buy, and sell NFTs.
+- Backend: Indexing NFTs and the corresponding metadata. Keep track of the order book. Provides APIs for the frontend.
+- Smart-Contract / DEX: Buy trades relay only on blockchain technology. By buying NFTs the user directly interacts over a P2P network with the smart contract without a centralized party.
+
+Supported interfaces:
+
+- ERC-20
+- ERC-721
+- ERC-1155
+- ERC-2981 (Royalty standard)
+
+### Smart contract
 - Works on all EVM based blockchains
-- NFT Standards: ERC-721 and ERC-1155
-- Payment: ERC-20 or Ether
-- Sell- and Bid-NFT orders
-- Supports ERC-2981 (Royalty standard)
+- Swaps ERC-721 / ERC-1155 NFTs with native coin or ERC-20 Token
 - Order validation
+- Buying with native Coin (ETH, Matic, …)
+- Buying with any ERC-20 Token
+- Supports the ERC-2981 Royalty standard
 - Cancelling orders
 - 100% decentralized / Code is law
-
 
 ### Backend
 - One instance works on all EVM based blockchains
@@ -48,7 +62,6 @@ OpenMarket White-label
 - Filtering NFTs and orders
 - Fully configurable over admin APIs
 - Runs on all cloud services (Docker)
-- Requires only JSON-RPC, Etherscan API
 
 ### USPs
 - Works on all EVM based blockchains. One Frontend/API for all.
