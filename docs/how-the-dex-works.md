@@ -46,9 +46,8 @@ User1 creates a sell order.
 ```
 
 User2 fills the order.
-```
-TX Hash: 0x56e80bb136c9d4ac4e9ff9b54e3c8879b785b49cf4e58d3ba8c15e4ba96c49fa
-```
+
+TX Hash: [0x56e80bb136c9d4ac4e9ff9b54e3c8879b785b49cf4e58d3ba8c15e4ba96c49fa](https://goerli.etherscan.io/tx/0x56e80bb136c9d4ac4e9ff9b54e3c8879b785b49cf4e58d3ba8c15e4ba96c49fa)
 
 ### Sell ERC721 NFT with WETH
 
@@ -72,10 +71,7 @@ User1 creates a sell order.
 ```
 
 User2 fills the order.
-
-```
-TX Hash: 0xc9ea8a7529bdddcf67976d2615905fd16111575993662cec0f70363c5ae689bc
-```
+TX Hash: [0xc9ea8a7529bdddcf67976d2615905fd16111575993662cec0f70363c5ae689bc](https://goerli.etherscan.io/tx/0xc9ea8a7529bdddcf67976d2615905fd16111575993662cec0f70363c5ae689bc)
 
 ### Bid for ERC721 with WETH
 User2 wants to buy the NFT but there is no sell order. Therefor the User2 creates a bid order
@@ -99,7 +95,4 @@ User2 wants to buy the NFT but there is no sell order. Therefor the User2 create
 ```
 
 User1 fills the order.
-
-```
-TX Hash: 0x01972a7704bfffba713881b30bedb044fcb734a75a9193d1c7c975170f9526ae
-```
+TX Hash: [0x01972a7704bfffba713881b30bedb044fcb734a75a9193d1c7c975170f9526ae](https://goerli.etherscan.io/tx/0x01972a7704bfffba713881b30bedb044fcb734a75a9193d1c7c975170f9526ae)
