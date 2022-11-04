@@ -15,6 +15,8 @@ The buyer (aka taker) will select the signed order and submit this order to the 
 
 ## Transaction analysis
 
+All the following examples are based on the following definition in the table below. 
+
 | Description     | Address                                    |
 | --------------- | ------------------------------------------ |
 | Dex Address     | 0x6a85796b158729474150d1c94a66184368d52142 |
@@ -47,6 +49,7 @@ User1 creates a sell order.
 
 User2 fills the order.
 
+![Etherscan](./img/tx1.jpg)
 TX Hash: [0x56e80bb136c9d4ac4e9ff9b54e3c8879b785b49cf4e58d3ba8c15e4ba96c49fa](https://goerli.etherscan.io/tx/0x56e80bb136c9d4ac4e9ff9b54e3c8879b785b49cf4e58d3ba8c15e4ba96c49fa)
 
 ### Sell ERC721 NFT with WETH
@@ -71,6 +74,7 @@ User1 creates a sell order.
 ```
 
 User2 fills the order.
+![etherscan](./img/tx2.jpg)
 TX Hash: [0xc9ea8a7529bdddcf67976d2615905fd16111575993662cec0f70363c5ae689bc](https://goerli.etherscan.io/tx/0xc9ea8a7529bdddcf67976d2615905fd16111575993662cec0f70363c5ae689bc)
 
 ### Bid for ERC721 with WETH
@@ -95,4 +99,7 @@ User2 wants to buy the NFT but there is no sell order. Therefor the User2 create
 ```
 
 User1 fills the order.
+![etherscan](./img/tx3.jpg)
 TX Hash: [0x01972a7704bfffba713881b30bedb044fcb734a75a9193d1c7c975170f9526ae](https://goerli.etherscan.io/tx/0x01972a7704bfffba713881b30bedb044fcb734a75a9193d1c7c975170f9526ae)
+
+The difference here is that the NFT owner (User1) submits the transaction to the blockchain network. 
